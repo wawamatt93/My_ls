@@ -294,11 +294,6 @@ int main(int ac, char** av) {
 
     int countFlags = setFlags(ac, av, &flagA, &flagT, &flagl, &flagR, &flagr, &flagd);
 
-    if (ac != 2) {
-        fprintf(stderr, "Usage: %s <directory>\n", av[0]);
-        exit(EXIT_FAILURE);
-    }
-
     //char *directoryPath = av[1];  // Récupérez le chemin du répertoire à partir des arguments de la ligne de commande
 
     // Vérifiez si le répertoire est fourni en argument
